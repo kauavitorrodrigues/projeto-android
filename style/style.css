@@ -148,26 +148,23 @@ main img.pequena {
 
 .video {
     background-color: var(--cor5);
-    margin: 5px 5px 5px 5px;
     position: relative;
-    padding-bottom: 56.25%;
+    padding: 25px 10px 56.25% 10px;
     height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-   }
-   .video iframe, .video object, .video embed {
+    margin:0 auto;
+}
+.video iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 90%;
-    height: 90%;
-   }
+    width: 100%;
+    height: 100%;
+}
+
    
 
 aside {
+    margin-top: 25px;
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
